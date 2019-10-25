@@ -4,7 +4,7 @@ streaming and short-lived batch data pipelines.
 
 === What is Spring Cloud Data Flow?
 A microservices-based Streaming and Batch data processing in Cloud Foundry and Kubernetes. You can learn more about
-the Spring Cloud Data Flow from the link:https://spring.io/projects/spring-cloud-dataflow[project-site],
+the Spring Cloud Data Flow from the link:https://dataflow.spring.io/[Microsite],
 link:https://spring.io/projects/spring-cloud-dataflow#learn[documentation],
 and link:https://github.com/spring-cloud/spring-cloud-dataflow-samples[samples].
 
@@ -40,5 +40,5 @@ and a batch job application.
 link:https://dataflow.spring.io/docs/batch-developer-guides/batch/data-flow-composed-task/[Spring Cloud Data Flow and Composed Task]
 
 == Summary
-Congratulations! You have learned Spring Cloud Data Flow's high-level overview, and you were able to build, deploy, and
+Congratulations! You have completed Spring Cloud Data Flow's high-level overview, and you were able to build, deploy, and
 launch streaming and batch data pipelines in Cloud Foundry, Kubernetes, and Local.
