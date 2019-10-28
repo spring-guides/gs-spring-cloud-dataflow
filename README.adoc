@@ -1,1 +1,44 @@
+== Getting Started with Spring Cloud Data Flow
+This guide walks you through an overview of Spring Cloud Data Flow and the process of orchestrating an event-driven
+streaming and short-lived batch data pipelines.
 
+=== What is Spring Cloud Data Flow?
+A microservices-based Streaming and Batch data processing in Cloud Foundry and Kubernetes. You can learn more about
+the Spring Cloud Data Flow from the link:https://dataflow.spring.io/[Microsite],
+link:https://spring.io/projects/spring-cloud-dataflow#learn[documentation],
+and link:https://github.com/spring-cloud/spring-cloud-dataflow-samples[samples].
+
+Furthermore, you can read Spring Cloud Data Flow's link:https://dataflow.spring.io/docs/concepts/architecture/[architecture and the building blocks]
+to familiarize yourself.
+
+=== Spring Cloud Data Flow and Pre-built Streaming Applications
+In the following guide, you will create and deploy a streaming data pipeline using pre-built applications.
+
+link:https://dataflow.spring.io/docs/stream-developer-guides/getting-started/stream/[Spring Cloud Data Flow with Pre-built Streaming Applications]
+
+=== Spring Cloud Data Flow and Custom Streaming Applications
+In the following guide, you will create and deploy a streaming data pipeline using custom applications.
+
+link:https://dataflow.spring.io/docs/stream-developer-guides/streams/data-flow-stream/[Spring Cloud Data Flow with Custom Streaming Applications]
+
+=== Spring Cloud Data Flow and Simple Task
+In the following guide, we demonstrate how to register a Spring Cloud Task application with Data Flow, create a Task
+definition, and launch the Task definition on Cloud Foundry, Kubernetes, and your local machine.
+
+link:https://dataflow.spring.io/docs/batch-developer-guides/batch/data-flow-simple-task/[Spring Cloud Data Flow with a Simple Task]
+
+=== Spring Cloud Data Flow and Batch Jobs
+In the following guide, we demonstrate how to register a Spring Batch application with Data Flow, create a task definition,
+and launch the task definition on Cloud Foundry, Kubernetes, and your local machine.
+
+link:https://dataflow.spring.io/docs/batch-developer-guides/batch/data-flow-spring-batch/[Spring Cloud Data Flow with Batch Jobs]
+
+=== Spring Cloud Data Flow and Composed Task
+In the following guide, we demonstrate how to orchestrate a Composed Task with a combination of both a simple task
+and a batch job application.
+
+link:https://dataflow.spring.io/docs/batch-developer-guides/batch/data-flow-composed-task/[Spring Cloud Data Flow and Composed Task]
+
+== Summary
+Congratulations! You have completed Spring Cloud Data Flow's high-level overview, and you were able to build, deploy, and
+launch streaming and batch data pipelines in Cloud Foundry, Kubernetes, and Local.
